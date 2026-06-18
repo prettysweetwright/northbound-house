@@ -301,6 +301,8 @@ button { font-family: var(--font); }
 .venture-icon--dark   { background: #e0e8f0; }
 .venture-icon--navy   { background: #dde3ed; }
 .venture-icon--purple { background: #ede9fe; }
+.venture-icon--red    { background: #ffe4ea; }
+.venture-icon--teal   { background: #dff0f5; }
 
 .venture-card__badges { display: flex; flex-wrap: wrap; gap: 0.35rem; justify-content: flex-end; }
 
