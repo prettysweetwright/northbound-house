@@ -51,23 +51,13 @@
     }
 
     .logo {
-      display: inline-flex;
-      align-items: baseline;
-      gap: 0.3rem;
+      display: block;
       margin-bottom: 3rem;
     }
-    .logo-northbound {
-      font-size: 2rem;
-      font-weight: 800;
-      color: var(--primary);
-      letter-spacing: -0.025em;
-    }
-    .logo-house {
-      font-size: 0.65rem;
-      font-weight: 700;
-      color: var(--accent);
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
+    .logo img {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
     }
 
     .eyebrow {
@@ -113,8 +103,7 @@
 <body>
   <div class="card">
     <a href="/" class="logo">
-      <span class="logo-northbound">northbound</span>
-      <span class="logo-house">HOUSE</span>
+      <img src="NHdot_Color.png" alt="Northbound House">
     </a>
     <p class="eyebrow">Coming Soon</p>
     <h1>Something good<br>is on its way.</h1>
